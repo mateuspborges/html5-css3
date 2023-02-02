@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+</head>
+<body>
+  <h1>imagem dinamica</h1>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas voluptates magnam atque, adipisci ad exercitationem asperiores excepturi aperiam doloribus dolorem perspiciatis quam, libero vero dolorum. Alias accusantium maiores iusto maxime?</p>
+  <picture>
+    <source media="(max-width: 750px )" srcset="foto-p.jpg" type="image/jpg">
+    <source media="(max-width: 1050px )" srcset="fotosex/foto-m.png" type="image/png">
+    <img src="fotosex/foto-g.png" alt="imagem flexível">
+  </picture>  
+  <h1>reproduzindo audiio</h1>
+  <p>vamos aprender a reprozir audio em HTML </p>
+ <audio preload="metadata"autoplay controls loop>
+  <source src="midia/Felina - WIU. MC Ryan SP - baixemusicas.org.mp3" type="audio/mpeg">
+  <source src="midia/Felina - WIU. MC Ryan SP - baixemusicas.org.mp3" type="audio/ogg">
+  <source src="midia/Felina - WIU. MC Ryan SP - baixemusicas.org.mp3" type="audio/wav">
+ </audio>
+ <p>infelizmente seu navegador nao e pssivel reproduzir a musica <a href="midia/Felina - WIU. MC Ryan SP - baixemusicas.org.mp3">clique aqui para baixar</a></p>
+</body>
+</html>

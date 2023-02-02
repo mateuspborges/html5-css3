@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(200, 109, 109);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+h1{
+    color: red;
+   background-color: rgb(224, 135, 147);
+
+}
+h2 {
+    color: rgb(212, 99, 38);
+}
+p {
+color: rgb(0, 0, 0);
+}
+a{
+    color: white;
+}
+
